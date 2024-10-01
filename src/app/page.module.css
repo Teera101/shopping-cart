@@ -1,0 +1,85 @@
+/* page.module.css */
+.shoppingCart {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .totalPrice {
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+  }
+  
+  .totalPrice h4 {
+    color: #ff6347;
+    font-weight: bold;
+  }
+  
+  /* สำหรับตกแต่ง ItemCart */
+  .itemCart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+  }
+  
+  .itemCart img {
+    width: 80px;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .itemCart .itemDetails {
+    flex-grow: 1;
+    padding: 0 20px;
+  }
+  
+  .itemCart .itemName {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .itemCart .itemPrice {
+    font-size: 1.25rem;
+    color: #ff6347;
+  }
+  
+  .incrementDecrementButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .incrementDecrementButtons button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .incrementDecrementButtons button:hover {
+    background-color: #e5533b;
+  }
+  
